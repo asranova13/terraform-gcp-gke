@@ -4,7 +4,7 @@
 ```
 
 module demo {
-    source         = "asranova13/gke/gcp/"
+    source         = "asranova13/gke/gcp"
     gke_config = {
       cluster_name   = "project-cluster"
       location       = "us-central1"
