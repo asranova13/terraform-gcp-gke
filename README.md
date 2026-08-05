@@ -23,3 +23,15 @@ module demo {
 terraform init
 terraform plan 
 ```
+
+## Outputs
+
+```hcl
+output "cluster_name" {
+  value = module.demo.cluster_name
+}
+
+output "cluster_location" {
+  value = module.demo.cluster_location
+}
+```
